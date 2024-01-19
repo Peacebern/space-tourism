@@ -98,6 +98,11 @@ section {
 
 .section-2 {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .section-2-p {
