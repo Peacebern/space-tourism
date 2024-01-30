@@ -39,8 +39,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
     list-style-type: none;
+}
+
+.nav-ul {
+    display: none;
 }
 
 .container {
@@ -78,6 +82,7 @@ section {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 3.375px;
 }
 
 .hero-img {
@@ -163,4 +168,37 @@ section {
     font-size: 15px;
     font-weight: 400;
     width: 327px;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-ul {
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        font-family: "Barlow Condensed";
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 1rem;
+        letter-spacing: 2.362px;
+    }
+
+    ul li:hover {
+        border-bottom: 3px solid #FFF;
+        padding-bottom: 1.5rem;
+    }
+
+    .hero-p {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-left: 2rem;
+    }
+
+    .section-2-sub1-p3 {
+        width: 400px;
+    }
 }
