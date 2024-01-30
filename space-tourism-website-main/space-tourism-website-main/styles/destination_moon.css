@@ -210,6 +210,10 @@ section {
         padding-left: 1rem;
     }
 
+    .section-2-p1 {
+        width: 400px;
+    }
+
     .section-3 {
         flex-direction: row;
     }
