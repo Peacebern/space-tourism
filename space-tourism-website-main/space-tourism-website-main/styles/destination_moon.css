@@ -38,8 +38,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
     list-style-type: none;
+}
+
+.nav-ul {
+    display: none;
 }
 
 .container {
@@ -73,6 +77,7 @@ section {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 3.75px;
 }
 
 .hero-img {
@@ -139,6 +144,7 @@ section {
     margin-top: 40px;
     border-top: 2px solid #383B4B ;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -147,7 +153,7 @@ section {
 }
 
 .section-3-p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -174,5 +180,43 @@ section {
     font-family: Bellefair;
     font-size: 28px;
     font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-ul {
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        font-family: "Barlow Condensed";
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 1rem;
+        letter-spacing: 2.362px;
+    }
+
+    ul li:hover {
+        border-bottom: 3px solid #FFF;
+        padding-bottom: 1.5rem;
+    }
+
+    .hero-p {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-left: 1rem;
+    }
+
+    .section-3 {
+        flex-direction: row;
+    }
+
+    .section-3-sub {
+        margin-top: 10px;
+    }
+
 }
 

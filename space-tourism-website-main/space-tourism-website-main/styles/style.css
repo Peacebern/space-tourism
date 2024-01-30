@@ -150,11 +150,6 @@ a {
 
 @media (min-width: 768px) {
     .menu {
-        display: block;
-        z-index: 2;
-    }
-
-    .menu {
         display: none;
     }
 
