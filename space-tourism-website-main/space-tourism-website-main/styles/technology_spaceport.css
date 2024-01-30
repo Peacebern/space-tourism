@@ -42,6 +42,10 @@ body {
     list-style-type: none;
 }
 
+.nav-ul {
+    display: none;
+}
+
 .container {
     scroll-snap-type: y mandatory;
     /* width: 100%; */
@@ -77,6 +81,7 @@ section {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 3.75px;
 }
 
 .hero-img {
@@ -162,4 +167,45 @@ section {
     font-size: 15px;
     font-weight: 400;
     width: 327px;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-ul {
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        font-family: "Barlow Condensed";
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 1rem;
+        letter-spacing: 2.362px;
+    }
+
+    ul li:hover {
+        border-bottom: 3px solid #FFF;
+        padding-bottom: 1.5rem;
+    }
+
+    .hero-p {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-left: 2rem;
+    }
+
+    .section-2-sub1-p3 {
+        width: 400px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .ment {
+        width: 100%;
+    }
 }
