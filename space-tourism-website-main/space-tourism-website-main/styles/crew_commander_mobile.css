@@ -149,7 +149,6 @@ section {
 
 @media (min-width: 768px) {
     .container {
-        /* background-color: red; */
         display: flex;
         flex-direction: column-reverse;
         position: relative;
@@ -212,4 +211,5 @@ section {
     .section-2-sub1-p3 {
         width: 400px;
     }
+
 }
