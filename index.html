@@ -9,7 +9,11 @@
   <link rel="images" href="./assets/">
 </head>
 <body>
-  <img src="./assets/home/background-home-mobile.jpg" alt="bacground_home_mobile" class="body_img">
+  <picture>
+    <source media="(min-width:768px)" srcset="./assets/home/background-home-desktop.jpg" class="body_img">
+    <source media="(min-width:992px)" srcset="./assets/crew/background-crew-tablet.jpg">
+    <img src="./assets/home/background-home-mobile.jpg" alt="bacground_home_mobile" class="body_img">
+  </picture>
   <header>
     <nav class="head_head">
       <img src="./assets/shared/logo.svg" alt="logo">
@@ -22,11 +26,6 @@
       
       <img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="menu">
     </nav>
-    <!-- <ul class="head_head">
-      <li><img src="./assets/shared/logo.svg" alt="logo"></li>
-      <li><img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="menu"></li>
-      <li><img src="./assets/shared/icon-close.svg" alt="icon-close"></li>
-    </ul> -->
   </header>
   <main class="container">
 

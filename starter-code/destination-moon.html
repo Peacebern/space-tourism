@@ -9,7 +9,11 @@
   <title>Frontend Mentor | Space tourism website</title>
 </head> 
 <body>
-  <img src="./assets/destination/background-destination-mobile.jpg" alt="bacground_destination_mobile" class="body_img">
+  <picture>
+    <source media="(min-width:768px)" srcset="./assets/destination/background-destination-tablet.jpg" class="body_img">
+    <source media="(min-width:992px)" srcset="./assets/destination/background-destination-desktop.jpg">
+    <img src="./assets/destination/background-destination-mobile.jpg" alt="bacground_destination_mobile" class="body_img">
+  </picture>
   <header>
     <nav class="head_head">
       <img src="./assets/shared/logo.svg" alt="logo">
@@ -33,31 +37,45 @@
         <div class="hero-img">   
           <img src="./assets/destination/image-moon.png">
         </div>
-        <div>
-          <ul class="hero-list">
-            <li class="hero-list1">MOON</li>
-            <li>MARS</li>
-            <li>EUROPA</li>
-            <li>TITAN</li>
-          </ul>
-        </div>
       </div>
     </section>
 
     <section>
-      <div class="section-2">
-        <div class="section-2-p">
-          <p>MOON</p>
-        </div>
-        <div class="section-2-p1">
-          <p>
-            See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
-          </p>
-        </div>
+      <div>
+        <ul class="hero-list">
+          <li class="hero-list1">MOON</li>
+          <li>MARS</li>
+          <li>EUROPA</li>
+          <li>TITAN</li>
+        </ul>
       </div>
+      <div>
+        <div class="section-2">
+          <div class="section-2-p">
+            <p>MOON</p>
+          </div>
+          <div class="section-2-p1">
+            <p>
+              See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+            </p>
+          </div>
+        </div>
+        <div class="section-3">
+          <div class="section-3-p">
+            <p class="section-3-p1">AVG. DISTANCE</p>
+            <p class="section-3-p2">384,400 KM</p>
+          </div>
+          <div class="section-3-sub">
+            <p class="section-3-p1">EST. TRAVEL TIME</p>
+            <p class="section-3-p2">3 DAYS<p>
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
-    <section>
+    <!-- <section>
       <div class="section-3">
         <div class="section-3-p">
           <p class="section-3-p1">AVG. DISTANCE</p>
@@ -68,7 +86,7 @@
           <p class="section-3-p2">3 DAYS<p>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
 </body>
 </html>

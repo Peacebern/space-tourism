@@ -213,3 +213,29 @@ section {
     }
 
 }
+
+@media (min-width: 992px) { 
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        /* justify-content: space-around; */
+        justify-content: center;
+        gap: 150px;
+        align-items: center;
+        align-self: center;
+        height: 80vh;
+        /* margin-top: 100px; */
+    }
+
+    .hero-p {
+        /* position: absolute;
+        top: 50px;
+        right: 500px; */
+        position: relative;
+        
+    }
+
+    /* .body_img {
+        margin-top: 20px;
+    } */
+}
