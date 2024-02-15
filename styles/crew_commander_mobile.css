@@ -24,6 +24,10 @@ body {
     min-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* change poition to "fixed" do moving arund dosen't affect the display */
 .body_img {
     pointer-events: none;
