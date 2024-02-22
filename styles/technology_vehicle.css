@@ -71,6 +71,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: relative;
 }
 
 .hero-p {
@@ -200,5 +201,55 @@ section {
 
     .section-2-sub1-p3 {
         width: 400px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .container {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 150px;
+        align-items: center;
+        align-self: center;
+        height: 80vh;
+    }
+
+    .section-2 {
+        display: flex;
+        gap: 40px;
+    }
+
+    .section-2-flex {
+        flex-direction: column;
+        gap: 25px;
+        justify-content: flex-start;
+        align-self: self-end;
+    }
+
+    .section-2-sub1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+        justify-content:flex-start;
+        align-items:flex-start;
+        align-self:flex-start;
+        text-align:left;
+    }
+    
+    .section-2-sub1-p1{
+        text-align: left;
+    }
+
+    .hero-p {
+        position: absolute;
+        top: -40px;
+        right: 675px;
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 500px;
+        height: 300px;
     }
 }
