@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="/space-tourism-website-main/space-tourism-website-main/styles/destination_titan.css">
-  <link rel="images" href="./assets/">
+  <link rel="stylesheet" href="/styles/destination_moon.css">
+  <link rel="stylesheet" href="/styles/commonstyles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head> 
 <body>
-  <img src="./assets/destination/background-destination-mobile.jpg" alt="bacground_destination_mobile" class="body_img">
+  <picture>
+    <source media="(min-width:768px)" srcset="/assets/destination/background-destination-tablet.jpg" class="body_img">
+    <source media="(min-width:992px)" srcset="/assets/destination/background-destination-desktop.jpg">
+    <img src="/assets/destination/background-destination-mobile.jpg" alt="bacground_destination_mobile" class="body_img">
+  </picture>
   <header>
     <nav class="head_head">
       <img src="/assets/shared/logo.svg" alt="logo">
+      <p class="head-border"></p>
       <ul class="nav-ul">
         <li><a href="/">HOME</a></li>
         <li><a href="/pages/destination/destination-moon.html">DESTINATION</a></li>
@@ -31,7 +36,7 @@
           <p>PICK YOUR DESTINATION</p>
         </div>
         <div class="hero-img">   
-          <img src="./assets/destination/image-titan.png">
+          <img src="/assets/destination/image-titan.png">
         </div>
         <div>
           <ul class="hero-list">

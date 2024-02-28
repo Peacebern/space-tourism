@@ -35,21 +35,9 @@ body {
     top: 0;
 }
 
-.head_head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-    list-style-type: none;
-}
-
 /* .oluchi {
     transform: translateX(0);
 } */
-
-.nav-ul {
-    display: none;
-}
 
 
 /* .nav-ul {
@@ -155,7 +143,7 @@ a {
         display: none;
     }
 
-    .nav-ul {
+    /* .nav-ul {
         display: flex;
         list-style-type: none;
         gap: 15px;
@@ -169,13 +157,13 @@ a {
     ul li:hover {
         border-bottom: 3px solid #FFF;
         padding-bottom: 1.5rem;
-    }
+    } */
 
 
-    .oluchi {
+    /* .oluchi {
         transform: translateX(50%);
         background-color: red;
-    } 
+    }  */
 }
 
 @media (min-width: 992px) { 

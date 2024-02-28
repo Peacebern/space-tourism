@@ -4,16 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="/space-tourism-website-main/space-tourism-website-main/styles/crew_engineer.css">
+  <link rel="stylesheet" href="/styles/crew_commander_mobile.css">
+  <link rel="stylesheet" href="/styles/commonstyles.css">
   <link rel="images" href="./assets/">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <!-- <body background="/space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg"> -->
 <body>
-  <img src="./assets/crew/background-crew-mobile.jpg" alt="bacground_crew_mobile" class="body_img">
+  <picture>
+    <source media="(min-width:768px)" srcset="/assets/crew/background-crew-tablet.jpg" class="body_img">
+    <source media="(min-width:992px)" srcset="/assets/crew/background-crew-desktop.jpg" class="body_img">
+    <img src="/assets/crew/background-crew-mobile.jpg" alt="bacground_crew_mobile" class="body_img">
+  </picture>
   <header>
     <nav class="head_head">
       <img src="/assets/shared/logo.svg" alt="logo">
+      <p class="head-border"></p>
       <ul class="nav-ul">
         <li><a href="/">HOME</a></li>
         <li><a href="/pages/destination/destination-moon.html">DESTINATION</a></li>
@@ -32,7 +38,7 @@
           <p>MEET YOUR CREW</p>
         </div>
         <div class="hero-img">   
-          <img src="./assets/crew/image-anousheh-ansari.png">
+          <img src="/assets/crew/image-anousheh-ansari.png">
         </div>
     </section>
 
@@ -41,11 +47,19 @@
         <div class="section-2-sub">
           <div class="section-2-svg">
             <svg xmlns="http://www.w3.org/2000/svg" width="88" height="10" viewBox="0 0 88 10" fill="none">
-              <circle opacity="0.174363" cx="5" cy="5" r="5" fill="white"/>
-              <circle opacity="0.174363" cx="31" cy="5" r="5" fill="white"/>
-              <circle opacity="0.174363" cx="57" cy="5" r="5" fill="white"/>
-              <circle  cx="83" cy="5" r="5" fill="white"/>
-            </svg>
+              <a xlink:href="/pages/crew/crew-commander.html">
+                  <circle opacity="0.174363" cx="5" cy="5" r="5" fill="white"/>
+              </a>
+              <a xlink:href="/pages/crew/crew-engineer.html">
+                  <circle cx="31" cy="5" r="5" fill="white"/>
+              </a>
+              <a xlink:href="/pages/crew/crew-pilot.html">
+                  <circle opacity="0.174363" cx="57" cy="5" r="5" fill="white"/>
+              </a>
+              <a xlink:href="/pages/crew/crew-specialist.html">
+                  <circle opacity="0.174363" cx="83" cy="5" r="5" fill="white"/>
+              </a>
+          </svg>          
           </div>
         </div>
         <div class="section-2-sub1">

@@ -34,7 +34,7 @@ body {
     top: 0;
 }
 
-a {
+/* a {
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ a {
 
 .nav-ul {
     display: none;
-}
+} */
 
 .container {
     scroll-snap-type: y mandatory;
@@ -191,7 +191,7 @@ section {
         display: none;
     }
 
-    .nav-ul {
+    /* .nav-ul {
         display: flex;
         list-style-type: none;
         gap: 15px;
@@ -205,7 +205,7 @@ section {
     ul li:hover {
         border-bottom: 3px solid #FFF;
         padding-bottom: 1.5rem;
-    }
+    } */
 
     .hero-p {
         display: flex;

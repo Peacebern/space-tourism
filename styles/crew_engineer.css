@@ -35,7 +35,7 @@ body {
     top: 0;
 }
 
-.head_head {
+/* .head_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@ body {
 
 .nav-ul {
     display: none;
-}
+} */
 
 .container {
     scroll-snap-type: y mandatory;
@@ -163,21 +163,20 @@ section {
         display: none;
     }
 
-    .nav-ul {
+    /* .nav-ul {
         display: flex;
         list-style-type: none;
         gap: 15px;
         font-family: "Barlow Condensed";
         font-size: 14px;
         font-weight: 400;
-        /* padding-right: 1rem; */
         letter-spacing: 2.362px;
     }
 
     ul li:hover {
         border-bottom: 3px solid #FFF;
         padding-bottom: 1.5rem;
-    }
+    } */
 
     .section-2 {
         /* background-color: red; */
