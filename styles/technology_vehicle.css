@@ -99,7 +99,7 @@ section {
 }
 
 .section-2-sub {
-    background-color: #FFF;
+    /* background-color: #FFF; */
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -115,10 +115,32 @@ section {
     border: 1px solid rgb(77, 79, 87);
 }
 
-.section-2-sub0 {
-    color: #FFF;
-    background-color: black;
+
+/* for the circular link to change background color for each page i created styles for each page link and aslo put a class that i styled for the link below in the bosy tag */
+
+/* technology vehicle specific circular link style */
+.technology-vehicle .link1 {
+    background-color: white; /* Red background color */
 }
+
+/* technology spaceport specific circular link style */
+.technology-spaceport .link2 {
+    background-color: white; /* Green background color */
+}
+
+/* technology capsule specific circular link style */
+.technology-capsule .link3 {
+    background-color: white; /* Blue background color */
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 .section-2-sub1 {
     margin-top: 20px;
@@ -186,7 +208,7 @@ section {
         justify-content: flex-start;
         gap: 20px;
         padding-left: 2rem;
-    }
+    } 
 
     .section-2-sub1-p3 {
         width: 400px;
