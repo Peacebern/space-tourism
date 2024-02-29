@@ -15,13 +15,11 @@
 
 
 body {
-    /* background-color: black; */
     overflow-x: hidden;
     color: var(--primary-color); 
     font-family: Barlow;
     position: relative;
-    /* display: inline-block; */
-    max-width: 100%;
+    min-width: 100%;
 }
 
 
@@ -226,9 +224,9 @@ section {
         align-items: center;
         align-self: center;
         height: 80vh;
-        position: relative;
+        /* position: relative;
         margin-top: 80px;
-        max-width: 1200px;
+        max-width: 1200px; */
     }
 
     .section-2-svg {
