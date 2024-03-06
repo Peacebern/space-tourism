@@ -170,41 +170,39 @@ section {
     font-weight: 400;
 }
 
+.hero-list-li a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.hero-list-li a:hover,
+.hero-list-li a:active{
+    color: inherit; 
+    border-color: white;
+}    
+
+
 @media (min-width: 768px) {
     .menu {
         display: none;
     }
 
-    /* .nav-ul {
-        display: flex;
-        list-style-type: none;
-        gap: 15px;
-        font-family: "Barlow Condensed";
-        font-size: 14px;
-        font-weight: 400;
-        padding-right: 1rem;
-        letter-spacing: 2.362px;
-    }
-
-    ul li:hover {
-        border-bottom: 3px solid #FFF;
-        padding-bottom: 1.5rem;
-    } */
-
-    li a {
+    /* .hero-list-li a {
         color: white;
         text-decoration: none;
         padding-bottom: 5px;
-        border-bottom: 1px solid transparent;
+        border-bottom: 3px solid transparent;
         transition: border-color 0.3s;
     }
 
-    /* Change color of active link */
-    li a:hover,
-    li a:active {
+    .hero-list-li a:hover,
+    .hero-list-li a:active{
         color: inherit; 
-        border-bottom: 3px solid white;
-    }    
+        border-color: white;
+    }     */
 
 
     .hero-p {

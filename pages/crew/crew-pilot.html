@@ -19,13 +19,25 @@
       <img src="/assets/shared/logo.svg" alt="logo">
       <p class="head-border"></p>
       <ul class="nav-ul">
-        <li><a href="/">HOME</a></li>
-        <li><a href="/pages/destination/destination-moon.html">DESTINATION</a></li>
-        <li><a href="/pages/crew/crew-commander.html">CREW</a></li>
-        <li><a href="/pages/technology/technology-vehicle.html">TECHNOLOGY</a></li>
+        <li class="nav-item main-nav-item">
+          <p class="nav-item-sub">00</p>
+          <a href="/">HOME</a>
+        </li>
+        <li class="nav-item  main-nav-item">
+          <p class="nav-item-sub">01</p>
+          <a href="/pages/destination/destination-moon.html">DESTINATION</a>
+        </li>
+        <li class="nav-item main-nav-item">
+          <p class="nav-item-sub">02</p>
+          <a href="/pages/crew/crew-commander.html">CREW</a>
+        </li>
+        <li class="nav-item main-nav-item">
+          <p class="nav-item-sub">03</p>
+          <a href="/pages/technology/technology-vehicle.html">TECHNOLOGY</a>
+        </li>
       </ul>
       
-      <img src="/assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="menu">
+      <button class="menu"><img src="/assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="menu-icon"></button>
     </nav>
   </header>
   <main class="container">
@@ -36,7 +48,7 @@
           <p>MEET YOUR CREW</p>
         </div>
         <div class="hero-img">   
-          <img src="/assets/crew/image-victor-glover.png">
+          <img src="/assets/crew/image-victor-glover.png" class="hero-img-fit">
         </div>
     </section>
 
@@ -74,5 +86,6 @@
       </div>
     </section>
   </main>
+  <script src="/script/index.js"></script>
 </body>
 </html>

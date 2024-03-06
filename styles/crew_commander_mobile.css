@@ -196,8 +196,12 @@ section {
 
     .hero-img {
         width: 400.37px;
-        height: 472px;
+        height: 450px;
         flex-shrink: 0;
+    }
+
+    .hero-img-fit {
+        height: 400px;
     }
 
     .hero {
@@ -254,5 +258,7 @@ section {
 
     }
 
-    
+    .hero-img-fit {
+        height: 450px;
+    }
 }
