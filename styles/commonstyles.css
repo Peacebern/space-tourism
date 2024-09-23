@@ -102,9 +102,12 @@
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 2.362px;
-        background-color: rgb(25, 27, 37);
+        /* background-color: rgb(25, 27, 37); */
+        background-color: rgb(76, 77, 87);
+        opacity: 0.9;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        
     }
 
 
