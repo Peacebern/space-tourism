@@ -107,6 +107,7 @@
         opacity: 0.9;
         padding-top: 1rem;
         padding-bottom: 1rem;
+
         
     }
 
@@ -134,18 +135,18 @@
     .nav-ul {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        padding-left: 4rem;
+        padding-left: 7rem;
         padding-right: 4rem;
         margin-right: -30px;
     }
 
     .head-border {
         display: block;
-        width: 50%;
+        width: 45%;
         border-top: 1.5px solid rgb(57, 59, 67) ;
         position: absolute;
         top: 30px;
-        left: 150px;
+        left: 95px;
         z-index: 1;
     }
 }
